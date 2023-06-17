@@ -1,0 +1,63 @@
+<svg
+  id="visual"
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 900 600"
+  width="900"
+  height="600"
+>
+  <rect x="0" y="0" width="900" height="600" fill="transparent" />
+  <defs>
+    <linearGradient id="grad1_0" x1="33.3%" y1="0%" x2="100%" y2="100%">
+      <stop offset="20%" stop-color="#a5a5a5" stop-opacity="1" />
+      <stop offset="80%" stop-color="#a5a5a5" stop-opacity="1" />
+    </linearGradient>
+  </defs>
+  <defs>
+    <linearGradient id="grad1_1" x1="33.3%" y1="0%" x2="100%" y2="100%">
+      <stop offset="20%" stop-color="#a5a5a5" stop-opacity="1" />
+      <stop offset="80%" stop-color="#6b6f76" stop-opacity="1" />
+    </linearGradient>
+  </defs>
+  <defs>
+    <linearGradient id="grad1_2" x1="33.3%" y1="0%" x2="100%" y2="100%">
+      <stop offset="20%" stop-color="#353d4a" stop-opacity="1" />
+      <stop offset="80%" stop-color="#6b6f76" stop-opacity="1" />
+    </linearGradient>
+  </defs>
+  <defs>
+    <linearGradient id="grad1_3" x1="33.3%" y1="0%" x2="100%" y2="100%">
+      <stop offset="20%" stop-color="#353d4a" stop-opacity="1" />
+      <stop offset="80%" stop-color="#001122" stop-opacity="1" />
+    </linearGradient>
+  </defs>
+  <defs>
+    <linearGradient id="grad2_0" x1="0%" y1="0%" x2="66.7%" y2="100%">
+      <stop offset="20%" stop-color="#a5a5a5" stop-opacity="1" />
+      <stop offset="80%" stop-color="#a5a5a5" stop-opacity="1" />
+    </linearGradient>
+  </defs>
+  <defs>
+    <linearGradient id="grad2_1" x1="0%" y1="0%" x2="66.7%" y2="100%">
+      <stop offset="20%" stop-color="#6b6f76" stop-opacity="1" />
+      <stop offset="80%" stop-color="#a5a5a5" stop-opacity="1" />
+    </linearGradient>
+  </defs>
+  <defs>
+    <linearGradient id="grad2_2" x1="0%" y1="0%" x2="66.7%" y2="100%">
+      <stop offset="20%" stop-color="#6b6f76" stop-opacity="1" />
+      <stop offset="80%" stop-color="#353d4a" stop-opacity="1" />
+    </linearGradient>
+  </defs>
+  <defs>
+    <linearGradient id="grad2_3" x1="0%" y1="0%" x2="66.7%" y2="100%">
+      <stop offset="20%" stop-color="#001122" stop-opacity="1" />
+      <stop offset="80%" stop-color="#353d4a" stop-opacity="1" />
+    </linearGradient>
+  </defs>
+  <g transform="translate(900, 0)">
+    <path d="M0 405.6C-54 401.4 -108.1 397.2 -155.2 374.7C-202.4 352.3 -242.6 311.6 -268.7 268.7C-294.8 225.8 -306.6 180.6 -327.1 135.5C-347.5 90.3 -376.6 45.2 -405.6 0L0 0Z" fill="#E8D3FF" />
+    <path d="M0 304.2C-40.5 301.1 -81.1 297.9 -116.4 281.1C-151.8 264.2 -182 233.7 -201.5 201.5C-221.1 169.3 -230 135.5 -245.3 101.6C-260.6 67.7 -282.4 33.9 -304.2 0L0 0Z" fill="#C6CFFF" />
+    <path d="M0 202.8C-27 200.7 -54 198.6 -77.6 187.4C-101.2 176.2 -121.3 155.8 -134.4 134.4C-147.4 112.9 -153.3 90.3 -163.5 67.7C-173.8 45.2 -188.3 22.6 -202.8 0L0 0Z" fill="#DEECFF" />
+    <path d="M0 101.4C-13.5 100.4 -27 99.3 -38.8 93.7C-50.6 88.1 -60.7 77.9 -67.2 67.2C-73.7 56.4 -76.7 45.2 -81.8 33.9C-86.9 22.6 -94.1 11.3 -101.4 0L0 0Z" fill="#F3F8FF" />
+  </g>
+</svg>

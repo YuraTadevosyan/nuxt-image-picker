@@ -5,7 +5,7 @@
     color="transparent"
     elevation="0"
     height="100px"
-    class="py-3"
+    class="header py-3"
   >
     <v-row align="center" justify="space-between">
       <v-col>
@@ -50,3 +50,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.header {
+  z-index: 3;
+}
+</style>

@@ -23,6 +23,12 @@
   cursor: pointer;
 }
 
+@media (min-width: 1264px) {
+  .container-custom {
+    max-width: 1440px !important;
+  }
+}
+
 // Horizontal scrollbar for datatable
 
 .v-data-table__wrapper {

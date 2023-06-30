@@ -20,7 +20,7 @@
 
       <v-divider class="primary lighten-1" />
 
-      <section class="home__about d-flex py-15 flex-column">
+      <section class="home__about d-flex py-15 flex-column align-center">
         <h3 class="primary--text text--lighten-1 text-h3 mb-5">
           Unleash Your Creativity!
         </h3>
@@ -54,13 +54,7 @@
           Start Exploring Now
         </v-btn>
       </section>
-
-      <!--      <v-divider class="primary lighten-1" />-->
     </v-container>
-
-    <!--    <section>-->
-    <!--      “A masterpiece of image exploration - unleash your creativity!”-->
-    <!--    </section>-->
   </div>
 </template>
 
@@ -140,6 +134,7 @@ export default {
   &__about,
   &__get-started {
     max-width: 50vw;
+    margin: 0 auto;
   }
 
   &__get-started {

@@ -23,6 +23,11 @@
   cursor: pointer;
 }
 
+
+.image-skeleton > div {
+  height: 100% !important;
+}
+
 @media (min-width: 1264px) {
   .container-custom {
     max-width: 1440px !important;

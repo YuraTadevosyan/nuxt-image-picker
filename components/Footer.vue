@@ -67,7 +67,7 @@ export default {
   width: 100vw;
   height: 100vh;
   position: absolute;
-  background-size: contain;
+  background-size: cover;
   background-position: bottom;
 }
 </style>

@@ -21,9 +21,17 @@ export default {
     ]
   },
 
+  pageTransition: {
+    name: 'page',
+    mode: 'out-in',
+    enterActiveClass: 'animate__animated animate__fadeInDown',
+    leaveActiveClass: 'animate__animated animate__fadeOutUp'
+  },
+
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '~/assets/style.scss'
+    '~/assets/style.scss',
+    'animate.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

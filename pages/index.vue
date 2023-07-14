@@ -67,6 +67,22 @@ export default {
       ],
     }
   },
+  head: () => {
+    return {
+      link: [
+        { rel: 'preload', as: 'image', href: '/background/light/intro/1.svg' },
+        { rel: 'preload', as: 'image', href: '/background/light/intro/2.svg' },
+        { rel: 'preload', as: 'image', href: '/background/light/intro/3.svg' },
+        { rel: 'preload', as: 'image', href: '/background/light/intro/4.svg' },
+        { rel: 'preload', as: 'image', href: '/background/light/intro/5.svg' },
+        { rel: 'preload', as: 'image', href: '/background/dark/intro/1.svg' },
+        { rel: 'preload', as: 'image', href: '/background/dark/intro/2.svg' },
+        { rel: 'preload', as: 'image', href: '/background/dark/intro/3.svg' },
+        { rel: 'preload', as: 'image', href: '/background/dark/intro/1.svg' },
+        { rel: 'preload', as: 'image', href: '/background/dark/intro/5.svg' },
+      ]
+    }
+  },
 }
 </script>
 

@@ -2,6 +2,27 @@
   <div ref="footer" class="footer" :class="$vuetify.theme.dark ? 'footer--dark': ''" />
 </template>
 
+<script>
+export default {
+  head () {
+    return {
+      link: [
+        { rel: 'preload', as: 'image', href: '/background/light/footer/1.svg' },
+        { rel: 'preload', as: 'image', href: '/background/light/footer/2.svg' },
+        { rel: 'preload', as: 'image', href: '/background/light/footer/3.svg' },
+        { rel: 'preload', as: 'image', href: '/background/light/footer/4.svg' },
+        { rel: 'preload', as: 'image', href: '/background/light/footer/5.svg' },
+        { rel: 'preload', as: 'image', href: '/background/dark/footer/1.svg' },
+        { rel: 'preload', as: 'image', href: '/background/dark/footer/2.svg' },
+        { rel: 'preload', as: 'image', href: '/background/dark/footer/3.svg' },
+        { rel: 'preload', as: 'image', href: '/background/dark/footer/1.svg' },
+        { rel: 'preload', as: 'image', href: '/background/dark/footer/5.svg' },
+      ]
+    }
+  }
+}
+</script>
+
 <style lang="scss" scoped>
 .footer {
   z-index: 0;

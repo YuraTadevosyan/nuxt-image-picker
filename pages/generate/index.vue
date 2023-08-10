@@ -279,6 +279,26 @@ export default {
         try {
           switch (this.tab) {
             case 0: {
+              const response = await this.$unsplash.get('/', {
+                params: {
+                  client_id: this.imageApiKeys?.unsplash,
+                  query: this.search,
+                  page,
+                },
+              })
+
+              this.images = response.data.results.map((el) => {
+                return {
+                  ...el,
+                  src: el.urls.small
+                }
+              })
+
+              this.totalPages = response.data.total_pages
+
+              break
+            }
+            case 1: {
               this.totalPages = 0
 
               const response = await this.$pixabay.get('/', {
@@ -300,7 +320,7 @@ export default {
 
               break
             }
-            case 1: {
+            case 2: {
               this.totalPages = 0
 
               const response = await this.$pexels.get('/', {
@@ -323,46 +343,6 @@ export default {
               })
 
               this.totalHits = response.data.total_results
-
-              break
-            }
-            case 2: {
-              const response = await this.$unsplash.get('/', {
-                params: {
-                  client_id: this.imageApiKeys?.unsplash,
-                  query: this.search,
-                  page,
-                },
-              })
-
-              this.images = response.data.results.map((el) => {
-                return {
-                  ...el,
-                  src: el.urls.small
-                }
-              })
-
-              this.totalPages = response.data.total_pages
-
-              break
-            }
-            case 3: {
-              if (this.page === 1) {
-                const response = await this.$wikiImagesService.find({
-                  name: this.search,
-                })
-                this.wikimediaImages = response
-              }
-
-              const data = this.wikimediaImages.slice((this.page - 1) * this.itemsPerPage, this.page * this.itemsPerPage)
-
-              this.images = data.map((el) => {
-                return {
-                  src: el
-                }
-              })
-
-              this.totalPages = Math.ceil(this.wikimediaImages.length / this.itemsPerPage)
 
               break
             }
